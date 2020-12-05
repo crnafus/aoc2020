@@ -21,9 +21,3 @@ def main():
         
 if __name__ == "__main__":
     main()
-
-
-#     >>> s1.split(':')
-# ['Username', ' How are you today?']
-# >>> s1.split(':')[0]
-# 'Username'

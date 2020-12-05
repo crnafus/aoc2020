@@ -1,7 +1,5 @@
 #Problem: find the two entries that sum to 2020 and then multiply those two numbers together.
 
-import os
-
 def main():
     inputList = []
     with open('Day1Part1Input.txt') as openfileobject:

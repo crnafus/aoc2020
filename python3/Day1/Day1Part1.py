@@ -2,7 +2,7 @@
 
 def main():
     inputList = []
-    with open('Day1Part1Input.txt') as openfileobject:
+    with open('Day1Input.txt') as openfileobject:
         inputList = openfileobject.read().splitlines()
     
     for i in range(0, len(inputList)):

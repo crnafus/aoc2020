@@ -2,7 +2,6 @@
 # ex: 1-4 l : abcwer  <--- password requires 1 - 4 l's, and the password was abcwer. Therefore this is an invalid password.
 
 def main():
-    inputList = []
     with open('Day2Input.txt') as openfileobject:
         validPasswordCount = 0
         for line in openfileobject:
